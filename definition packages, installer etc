@@ -1,0 +1,26 @@
+####### CONDA #######
+## is a package and an enviroment manager [provided by anaconda or miniconda]
+## can manage an entire python environment (both R and python)
+## Strengths:
+       # Installs compiled binaries (no need to compile from source).
+       # Handles non‑Python dependencies (e.g., R, gcc, BLAS, libpng).
+       # Creates isolated environments (conda create -n myenv)
+
+## basic functions in CONDA, to be expleted in powershell
+  # conda "create -n" + "python=version" # to create a new environment within python
+  # conda "activate" # to activate the environment you created with the last command
+  # conda "install -c channel" followed by packages # to install a package
+      ### use defaults for basic packages, conda-forge for new or rare packages, bioconda for bioinformatic packages
+  # keep in mind that channels arerepository (sources) where conda looks for packages
+
+
+###### PIP ########
+## is a python package manager, also defined as python native installer 
+ ## main command
+  # pip "install" + package # to install a package
+ ## specific installation processes
+  # pip "install --upgrade" packages #to update a package
+  # pip "install git+https://github.com/..." # to install a package directly from github
+
+
+###### MODULE #####
