@@ -1,0 +1,13 @@
+### ACCESS TO RAAPOI
+
+ssh campansa@raapoi@vuw.ac.nz  ##ssh stants for secure shell
+### insert password
+### if not connected via uni computer, you will need a vpn 
+### check on https://vuw-research-computing.github.io/raapoi-docs/ for more
+
+### ACCESS TO R
+
+## to access R
+R
+## to exit just ctrl+z
+#every command is the same as Rstudio
