@@ -10,7 +10,15 @@ ssh campansa@raapoi@vuw.ac.nz  ##ssh stants for secure shell
 ## to access R
 R
 ## to exit just ctrl+z
-#every command is the same as Rstudio
+#every command is the same as Rstudio (treat the environment as you would in Rstudio console)
 
 #to check the version
 version  # in R
+
+
+### ACCESS TO PYTHON
+
+python #just type python and press enter
+
+>>> exit() #to exit python na dgo back to powershell environment
+>>> quit() 
